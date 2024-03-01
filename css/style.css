@@ -1,0 +1,67 @@
+body {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.calculator {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Optional: Border for better visibility */
+
+}
+
+#display {
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(5px); /* Adds a blur effect to the display */
+}
+
+.keys {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.968); /* Transparent white background for buttons */
+    backdrop-filter: blur(5px); /* Adds a blur effect to the buttons */
+    cursor: pointer;
+    color: black; /* Text color */
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background on hover */
+    color: #000; /* Text color on hover */
+}
+
+#button {
+    margin-top: 5px;
+    font-size: 15px;
+    background: none;
+    color: #fff;
+
+}
